@@ -45,97 +45,97 @@ Add other plugins, add user defined plugins to grunt list.
 Help, Local help file of how to use the builder.
 
 ## Create Project macro flow
-User selects 'Create project' macro
-User selects type a component, plugin or template
-default parameters are read and displayed
-user adds additional information
-user selects project directory
+* User selects 'Create project' macro
+* User selects type a component, plugin or template
+* default parameters are read and displayed
+* user adds additional information
+* user selects project directory
 
-the builder checks for local nodejs
-checks for local grunt
-user selects grunt plugins to install
-list standard plugins
-allow user to add custom plugins
-Gruntfile.js created with standard parameters
-package.json created with standard parameters
+* the builder checks for local nodejs
+* checks for local grunt
+* user selects grunt plugins to install
+* list standard plugins
+* allow user to add custom plugins
+* Gruntfile.js created with standard parameters
+* package.json created with standard parameters
 
-project name is built with Joomla file infrastructure and files
-creates projectname manifest file
+* project name is built with Joomla file infrastructure and files
+* creates projectname manifest file with user data
 
 ## Modify User data
-Modify User data such as name, email etc
+* Modify User data such as name, email etc
 
 ## Modify default Grunt parameters macro flow
-Modify settings for Grunt.
-lookup list of parameters
-select true/false
-file selection
-custom functions
+* Modify settings for Grunt.
+* lookup list of parameters
+* select true/false
+* file selection
+* custom functions
 
 ## Modify Grunt Plugins parameters macro flow
-Modify settings for Grunt Plugins.
-select plugin name
-lookup list of parameters
-select true/false
-file selection
+* Modify settings for Grunt Plugins.
+* select plugin name
+* lookup list of parameters
+* select true/false
+* file selection
 
 ## Add other plugins macro flow
-Add user defined plugins to grunt list.
-Add name
-add url
+* Add user defined plugins to grunt list.
+* Add name
+* add url
 
 ## Help macro flow
-Local help file of how to use the builder.
-Option to add other help files.
+* Local help file of how to use the builder.
+* Option to add other help files.
 
 
 ## Joomla Project Macros
 after project is created
 ### Modify plugin parameters
-options to modify parameters of plugins
+* options to modify parameters of plugins
 
 ### modify package.json
 
 ### Build
-Build project
+* Build project
 
 ### Build and install
-Checks to see if project has been installed on Joomla Server
-Build and install project onto Joomla server
+* Checks to see if project has been installed on Joomla Server
+* Build and install project onto Joomla server
 
 ### FTP Config
-setup ftp configuration
-url
-port number
-login name
-password
+* setup ftp configuration
+* url
+* vport number
+* login name
+* password
 
 ### FTP Upload project
-select files to upload
+* select files to upload
 
 ## Run grunt on files
-run grunt default
+* run grunt default
 
 ## run grunt plugins on files
-run selected grunt plugins
+* run selected grunt plugins
 
 ## Clean up
-clean up temp files
+* clean up temp files
 
 ## Compress for deployment
-compress files to zip
-exclude non essential files from zip
+* compress files to zip
+* exclude non essential files from zip
 
 ## Other Functions
 
 ## Autocomplete functions
-user types in joomla specific code
+* user types in joomla specific code
 
 intelisense / autocomplete
 
-For example if label is added ie MYPROJECT.THISISDESCRIPTION the builder then adds label data and prompts user to add text to the language file.
+* For example if label is added ie MYPROJECT.THISISDESCRIPTION the builder then adds label data and prompts user to add text to the language file.
 
-if JFACTORY:: is typed a popup will display options and insert dummy values
+* if JFACTORY:: is typed a popup will display options and insert dummy values
 
 
 <script>
