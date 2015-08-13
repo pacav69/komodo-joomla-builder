@@ -124,7 +124,7 @@ after project is created
 
 ## Compress for deployment
 * compress files to zip
-* exclude non essential files from zip
+* exclude non essential files list
 
 ## Other Functions
 
