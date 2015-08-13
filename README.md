@@ -130,8 +130,11 @@ exclude non essential files from zip
 
 ## Autocomplete functions
 user types in joomla specific code
+
 intelisense / autocomplete
+
 For example if label is added ie MYPROJECT.THISISDESCRIPTION the builder then adds label data and prompts user to add text to the language file.
+
 if JFACTORY:: is typed a popup will display options and insert dummy values
 
 
