@@ -1,7 +1,8 @@
 # Komodo Joomla Builder
 ## Description
-Create a Joomla file structure using Komodo and Grunt.
- 
+Create a Joomla project infrastructure using Komodo and Grunt.
+
+## Background 
 This project is based on Komodo's Extension Generator where it would create a project file in a project directory and then populate the directory with Komodo's extension file structure with prompts to the user to input information for extension details and creating a manifest file with accompanying macros to modify the manifest file, build the extension and build and install the extension to Komodo.
 
 ## Project Scope
@@ -88,3 +89,4 @@ Build and install project onto Joomla server
 user types in joomla specific code
 intelisense / autocomplete
 For example if label is added ie MYPROJECT.THISISDESCRIPTION the builder then adds label data and prompts user to add text to the language file.
+
