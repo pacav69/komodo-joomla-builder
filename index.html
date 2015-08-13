@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Komodo-Joomla-builder by pacav69</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+  </head>
+  <body>
+    <section class="page-header">
+      <h1 class="project-name">Komodo-Joomla-builder</h1>
+      <h2 class="project-tagline">Create a Joomla file structure using Komodo and Grunt </h2>
+      <a href="https://github.com/pacav69/komodo-joomla-builder" class="btn">View on GitHub</a>
+      <a href="https://github.com/pacav69/komodo-joomla-builder/zipball/master" class="btn">Download .zip</a>
+      <a href="https://github.com/pacav69/komodo-joomla-builder/tarball/master" class="btn">Download .tar.gz</a>
+    </section>
+
+    <section class="main-content">
+      <h1>
+<a id="komodo-joomla-builder" class="anchor" href="#komodo-joomla-builder" aria-hidden="true"><span class="octicon octicon-link"></span></a>Komodo Joomla Builder</h1>
+
+<h2>
+<a id="description" class="anchor" href="#description" aria-hidden="true"><span class="octicon octicon-link"></span></a>Description</h2>
+
+<p>Create a Joomla file structure using Komodo and Grunt 
+This project is based on Komodo's Extension Generator where it would create a project file in a project directory and then populate the directory with Komodo's extension file structure with prompts to the user to input information for extension details and creating a manifest file with accompanying macros to modify the manifest file, build the extension and build and install the extension to Komodo.</p>
+
+<h2>
+<a id="project-scope" class="anchor" href="#project-scope" aria-hidden="true"><span class="octicon octicon-link"></span></a>Project Scope</h2>
+
+<p>With this project it will do a similar procedure in combination with GruntJS, plugins and Komodo macros to create the Joomla infrastructure, with the ability to modify and add Joomla files and functions, do syntax checks, ensure compliance with Joomla coding standards, use autocomplete for Joomla coding.</p>
+
+<h2>
+<a id="what-is-joomla" class="anchor" href="#what-is-joomla" aria-hidden="true"><span class="octicon octicon-link"></span></a>What is Joomla?</h2>
+
+<p>Joomla is an award-winning content management system (CMS), which enables you to build Web sites and powerful online applications. Many aspects, including its ease-of-use and extensibility, have made Joomla the most popular Web site software available. Best of all, Joomla is an open source solution that is freely available to everyone.
+More information can be found <a href="http://www.joomla.org/">here</a></p>
+
+<h2>
+<a id="what-are-the-parts-of-joomla" class="anchor" href="#what-are-the-parts-of-joomla" aria-hidden="true"><span class="octicon octicon-link"></span></a>What are the parts of Joomla</h2>
+
+<h3>
+<a id="component" class="anchor" href="#component" aria-hidden="true"><span class="octicon octicon-link"></span></a>Component</h3>
+
+<h3>
+<a id="plugin" class="anchor" href="#plugin" aria-hidden="true"><span class="octicon octicon-link"></span></a>Plugin</h3>
+
+<h3>
+<a id="templates" class="anchor" href="#templates" aria-hidden="true"><span class="octicon octicon-link"></span></a>Templates</h3>
+
+<h2>
+<a id="workflow" class="anchor" href="#workflow" aria-hidden="true"><span class="octicon octicon-link"></span></a>Workflow</h2>
+
+<h2>
+<a id="download-komodo-joomla-builder" class="anchor" href="#download-komodo-joomla-builder" aria-hidden="true"><span class="octicon octicon-link"></span></a>Download Komodo Joomla Builder</h2>
+
+<p>After downloading and installing the Komodo Joomla builder file (Work In Progress (WIP))</p>
+
+<h2>
+<a id="joomla-naming-convention" class="anchor" href="#joomla-naming-convention" aria-hidden="true"><span class="octicon octicon-link"></span></a>Joomla naming convention</h2>
+
+<p>Joomla requires that the naming convention of files and functions be consistent throughout the project to utilise the Joomla infrastructure.</p>
+
+<h3>
+<a id="building-joomla-component-procedure" class="anchor" href="#building-joomla-component-procedure" aria-hidden="true"><span class="octicon octicon-link"></span></a>Building Joomla component procedure</h3>
+
+<p>The first time the developer uses the builder they are prompted for default parameters.
+Such as author name, email, url etc this information is stored in a config file for later reference.
+It then displays a project help information outlying the workflow.</p>
+
+<p>It does a check for global nodejs installation and prompts if not installed as this is required for grunt
+then checks for global grunt installation and prompts if not installed.</p>
+
+<h2>
+<a id="macros-and-their-function" class="anchor" href="#macros-and-their-function" aria-hidden="true"><span class="octicon octicon-link"></span></a>Macros and their function</h2>
+
+<h3>
+<a id="komodo-extension---create-joomla-project" class="anchor" href="#komodo-extension---create-joomla-project" aria-hidden="true"><span class="octicon octicon-link"></span></a>Komodo Extension - Create Joomla Project</h3>
+
+<p>create the project, add macros to Joomla project, modify default user data, modify default parameters for grunt and plugins, add plugins to list, help on using builder</p>
+
+<h2>
+<a id="create-project" class="anchor" href="#create-project" aria-hidden="true"><span class="octicon octicon-link"></span></a>Create Project</h2>
+
+<p>User selects create project macro
+User selects type a component, plugin or template
+default parameters are read and displayed
+user adds additional information
+user selects project directory</p>
+
+<p>the builder checks for local nodejs 
+checks for local grunt
+user selects grunt plugins to install
+list standard plugins
+allow user to add custom plugins
+Gruntfile.js created with standard parameters
+package.json created with standard parameters</p>
+
+<p>project name is built with Joomla file infrastructure and files
+creates projectname manifest file</p>
+
+<h2>
+<a id="joomla-project-macros" class="anchor" href="#joomla-project-macros" aria-hidden="true"><span class="octicon octicon-link"></span></a>Joomla Project Macros</h2>
+
+<p>after project is created</p>
+
+<h3>
+<a id="modify-plugin-parameters" class="anchor" href="#modify-plugin-parameters" aria-hidden="true"><span class="octicon octicon-link"></span></a>Modify plugin parameters</h3>
+
+<p>options to modify parameters of plugins</p>
+
+<h3>
+<a id="modify-packagejson" class="anchor" href="#modify-packagejson" aria-hidden="true"><span class="octicon octicon-link"></span></a>modify package.json</h3>
+
+<h3>
+<a id="build" class="anchor" href="#build" aria-hidden="true"><span class="octicon octicon-link"></span></a>Build</h3>
+
+<p>Build project</p>
+
+<h3>
+<a id="build-and-install" class="anchor" href="#build-and-install" aria-hidden="true"><span class="octicon octicon-link"></span></a>Build and install</h3>
+
+<p>Checks to see if project has been installed on Joomla Server
+Build and install project onto Joomla server</p>
+
+<h3>
+<a id="ftp-config" class="anchor" href="#ftp-config" aria-hidden="true"><span class="octicon octicon-link"></span></a>FTP Config</h3>
+
+<h3>
+<a id="ftp-upload-project" class="anchor" href="#ftp-upload-project" aria-hidden="true"><span class="octicon octicon-link"></span></a>FTP Upload project</h3>
+
+<h2>
+<a id="run-grunt-on-files" class="anchor" href="#run-grunt-on-files" aria-hidden="true"><span class="octicon octicon-link"></span></a>Run grunt on files</h2>
+
+<h2>
+<a id="run-grunt-plugins-on-files" class="anchor" href="#run-grunt-plugins-on-files" aria-hidden="true"><span class="octicon octicon-link"></span></a>run grunt plugins on files</h2>
+
+<h2>
+<a id="clean-up" class="anchor" href="#clean-up" aria-hidden="true"><span class="octicon octicon-link"></span></a>Clean up</h2>
+
+<h2>
+<a id="compress-for-deployment" class="anchor" href="#compress-for-deployment" aria-hidden="true"><span class="octicon octicon-link"></span></a>Compress for deployment</h2>
+
+<h2>
+<a id="other-functions" class="anchor" href="#other-functions" aria-hidden="true"><span class="octicon octicon-link"></span></a>Other Functions</h2>
+
+<h2>
+<a id="autocomplete-functions" class="anchor" href="#autocomplete-functions" aria-hidden="true"><span class="octicon octicon-link"></span></a>Autocomplete functions</h2>
+
+<p>user types in joomla specific code
+intelisense / autocomplete
+For example if label is added ie MYPROJECT.THISISDESCRIPTION the builder then adds label data and prompts user to add text to the language file.</p>
+
+      <footer class="site-footer">
+        <span class="site-footer-owner"><a href="https://github.com/pacav69/komodo-joomla-builder">Komodo-Joomla-builder</a> is maintained by <a href="https://github.com/pacav69">pacav69</a>.</span>
+
+        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
+      </footer>
+
+    </section>
+
+  
+  </body>
+</html>
