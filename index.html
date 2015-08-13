@@ -71,7 +71,7 @@
 More information can be found <a href="http://www.joomla.org/">here</a></p>
 
 <h2>
-<a id="what-are-the-parts-of-joomla" class="anchor" href="#what-are-the-parts-of-joomla" aria-hidden="true"><span class="octicon octicon-link"></span></a>What are the parts of Joomla</h2>
+<a id="what-are-the-parts-of-joomla" class="anchor" href="#what-are-the-parts-of-joomla" aria-hidden="true"><span class="octicon octicon-link"></span></a>What are the parts of Joomla?</h2>
 
 <h3>
 <a id="component" class="anchor" href="#component" aria-hidden="true"><span class="octicon octicon-link"></span></a>Component</h3>
@@ -106,23 +106,28 @@ It then displays a project help information outlying the workflow.</p>
 then checks for global grunt installation and prompts if not installed.</p>
 
 <h2>
-<a id="macros-and-their-function" class="anchor" href="#macros-and-their-function" aria-hidden="true"><span class="octicon octicon-link"></span></a>Macros and their function</h2>
+<a id="macros-and-their-functions" class="anchor" href="#macros-and-their-functions" aria-hidden="true"><span class="octicon octicon-link"></span></a>Macros and their functions</h2>
 
 <h3>
-<a id="komodo-extension---create-joomla-project" class="anchor" href="#komodo-extension---create-joomla-project" aria-hidden="true"><span class="octicon octicon-link"></span></a>Komodo Extension - Create Joomla Project</h3>
+<a id="komodo-extension---create-joomla-project-macros" class="anchor" href="#komodo-extension---create-joomla-project-macros" aria-hidden="true"><span class="octicon octicon-link"></span></a>Komodo Extension - Create Joomla Project Macros.</h3>
 
-<p>create the project, add macros to Joomla project, modify default user data, modify default parameters for grunt and plugins, add plugins to list, help on using builder</p>
+<p>Create project, this adds macros to the Joomla project.
+Modify User data, this modifies the user data that is used as default parameters.
+Modify default Grunt parameters, Modify settings for Grunt.
+Modify Grunt Plugins parameters, Modify settings for Grunt Plugins.
+Add other plugins, add user defined plugins to grunt list.
+Help, Local help file of how to use the builder.</p>
 
 <h2>
-<a id="create-project" class="anchor" href="#create-project" aria-hidden="true"><span class="octicon octicon-link"></span></a>Create Project</h2>
+<a id="create-project-macro-flow" class="anchor" href="#create-project-macro-flow" aria-hidden="true"><span class="octicon octicon-link"></span></a>Create Project macro flow</h2>
 
-<p>User selects create project macro
+<p>User selects 'Create project' macro
 User selects type a component, plugin or template
 default parameters are read and displayed
 user adds additional information
 user selects project directory</p>
 
-<p>the builder checks for local nodejs 
+<p>the builder checks for local nodejs
 checks for local grunt
 user selects grunt plugins to install
 list standard plugins
@@ -132,6 +137,42 @@ package.json created with standard parameters</p>
 
 <p>project name is built with Joomla file infrastructure and files
 creates projectname manifest file</p>
+
+<h2>
+<a id="modify-user-data" class="anchor" href="#modify-user-data" aria-hidden="true"><span class="octicon octicon-link"></span></a>Modify User data</h2>
+
+<p>Modify User data such as name, email etc</p>
+
+<h2>
+<a id="modify-default-grunt-parameters-macro-flow" class="anchor" href="#modify-default-grunt-parameters-macro-flow" aria-hidden="true"><span class="octicon octicon-link"></span></a>Modify default Grunt parameters macro flow</h2>
+
+<p>Modify settings for Grunt.
+lookup list of parameters
+select true/false
+file selection
+custom functions</p>
+
+<h2>
+<a id="modify-grunt-plugins-parameters-macro-flow" class="anchor" href="#modify-grunt-plugins-parameters-macro-flow" aria-hidden="true"><span class="octicon octicon-link"></span></a>Modify Grunt Plugins parameters macro flow</h2>
+
+<p>Modify settings for Grunt Plugins.
+select plugin name
+lookup list of parameters
+select true/false
+file selection</p>
+
+<h2>
+<a id="add-other-plugins-macro-flow" class="anchor" href="#add-other-plugins-macro-flow" aria-hidden="true"><span class="octicon octicon-link"></span></a>Add other plugins macro flow</h2>
+
+<p>Add user defined plugins to grunt list.
+Add name
+add url</p>
+
+<h2>
+<a id="help-macro-flow" class="anchor" href="#help-macro-flow" aria-hidden="true"><span class="octicon octicon-link"></span></a>Help macro flow</h2>
+
+<p>Local help file of how to use the builder.
+Option to add other help files.</p>
 
 <h2>
 <a id="joomla-project-macros" class="anchor" href="#joomla-project-macros" aria-hidden="true"><span class="octicon octicon-link"></span></a>Joomla Project Macros</h2>
@@ -160,20 +201,37 @@ Build and install project onto Joomla server</p>
 <h3>
 <a id="ftp-config" class="anchor" href="#ftp-config" aria-hidden="true"><span class="octicon octicon-link"></span></a>FTP Config</h3>
 
+<p>setup ftp configuration
+url
+port number
+login name
+password</p>
+
 <h3>
 <a id="ftp-upload-project" class="anchor" href="#ftp-upload-project" aria-hidden="true"><span class="octicon octicon-link"></span></a>FTP Upload project</h3>
+
+<p>select files to upload</p>
 
 <h2>
 <a id="run-grunt-on-files" class="anchor" href="#run-grunt-on-files" aria-hidden="true"><span class="octicon octicon-link"></span></a>Run grunt on files</h2>
 
+<p>run grunt default</p>
+
 <h2>
 <a id="run-grunt-plugins-on-files" class="anchor" href="#run-grunt-plugins-on-files" aria-hidden="true"><span class="octicon octicon-link"></span></a>run grunt plugins on files</h2>
+
+<p>run selected grunt plugins</p>
 
 <h2>
 <a id="clean-up" class="anchor" href="#clean-up" aria-hidden="true"><span class="octicon octicon-link"></span></a>Clean up</h2>
 
+<p>clean up temp files</p>
+
 <h2>
 <a id="compress-for-deployment" class="anchor" href="#compress-for-deployment" aria-hidden="true"><span class="octicon octicon-link"></span></a>Compress for deployment</h2>
+
+<p>compress files to zip
+exclude non essential files from zip</p>
 
 <h2>
 <a id="other-functions" class="anchor" href="#other-functions" aria-hidden="true"><span class="octicon octicon-link"></span></a>Other Functions</h2>
@@ -181,9 +239,13 @@ Build and install project onto Joomla server</p>
 <h2>
 <a id="autocomplete-functions" class="anchor" href="#autocomplete-functions" aria-hidden="true"><span class="octicon octicon-link"></span></a>Autocomplete functions</h2>
 
-<p>user types in joomla specific code
-intelisense / autocomplete
-For example if label is added ie MYPROJECT.THISISDESCRIPTION the builder then adds label data and prompts user to add text to the language file.</p>
+<p>user types in joomla specific code</p>
+
+<p>intelisense / autocomplete</p>
+
+<p>For example if label is added ie MYPROJECT.THISISDESCRIPTION the builder then adds label data and prompts user to add text to the language file.</p>
+
+<p>if JFACTORY:: is typed a popup will display options and insert dummy values</p>
 
 
       </section>
