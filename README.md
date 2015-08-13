@@ -37,7 +37,6 @@ then checks for global grunt installation and prompts if not installed.
 ### Komodo Extension - Create Joomla Project
 create the project, add macros to Joomla project, modify default user data, modify default parameters for grunt and plugins, add plugins to list, help on using builder
 
-## Joomla Project Macros
 ## Create Project
 User selects create project macro
 User selects type a component, plugin or template
@@ -56,11 +55,35 @@ package.json created with standard parameters
 project name is built with Joomla file infrastructure and files
 creates projectname manifest file
 
-### after project is created
-
+## Joomla Project Macros
+after project is created
+### Modify plugin parameters
 options to modify parameters of plugins
-modify package.json
 
+### modify package.json
+
+### Build
+Build project
+
+### Build and install
+Checks to see if project has been installed on Joomla Server
+Build and install project onto Joomla server
+
+### FTP Config
+
+### FTP Upload project
+
+## Run grunt on files
+
+## run grunt plugins on files
+
+## Clean up
+
+## Compress for deployment
+
+## Other Functions
+
+## Autocomplete functions
 user types in joomla specific code
 intelisense / autocomplete
 For example if label is added ie MYPROJECT.THISISDESCRIPTION the builder then adds label data and prompts user to add text to the language file.
