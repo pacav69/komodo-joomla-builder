@@ -46,12 +46,12 @@ then checks for global grunt installation and prompts if not installed.
 
 ### Create Project macro flow
 * User selects 'Create project' macro
-* User selects type a component, plugin or template
+* User then selects type of project: a component, plugin or template
 * default parameters are read and displayed
 * user adds additional information
 * user selects project directory
 * the builder checks for local nodejs
-* checks for local grunt
+* then checks for local grunt
 * user selects grunt plugins to install
 * list standard plugins
 * allow user to add custom plugins
