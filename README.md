@@ -2,6 +2,9 @@
 ## Description
 Create a Joomla project infrastructure using Komodo and Grunt.
 
+## References
+[Developer Mozilla: Add-ons](https://developer.mozilla.org/en-US/Add-ons/SDK/Tutorials)
+
 ## Background
 This project is based on Komodo's Extension Generator where it would create a project file in a project directory and then populate the directory with Komodo's extension file structure with prompts to the user to input information for extension details and creating a manifest file with accompanying macros to modify the manifest file, build the extension and build and install the extension to Komodo.
 
