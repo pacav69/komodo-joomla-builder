@@ -37,12 +37,12 @@ then checks for global grunt installation and prompts if not installed.
 
 ## Macros and their functions
 ### Komodo Extension - Create Joomla Project Macros.
-Create project, this adds macros to the Joomla project.
-Modify User data, this modifies the user data that is used as default parameters.
-Modify default Grunt parameters, Modify settings for Grunt.
-Modify Grunt Plugins parameters, Modify settings for Grunt Plugins.
-Add other plugins, add user defined plugins to grunt list.
-Help, Local help file of how to use the builder.
+* Create project, this adds macros to the Joomla project.
+* Modify User data, this modifies the user data that is used as default parameters.
+* Modify default Grunt parameters, Modify settings for Grunt.
+* Modify Grunt Plugins parameters, Modify settings for Grunt Plugins.
+* Add other plugins, add user defined plugins to grunt list.
+* Help, Local help file of how to use the builder.
 
 ### Create Project macro flow
 * User selects 'Create project' macro
